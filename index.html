@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The World</title>
+  <style>
+    /* CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      color: #333;
+    }
+    
+    #content {
+      background-color: #fff;
+      padding: 20px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>The World</h1>
+  <div id="content">
+    <p>Welcome to our webpage about the world!</p>
+    <p>Here you can find information and explore various topics related to the world.</p>
+    <h2>Fun Facts</h2>
+    <ul>
+      <li>The Earth is approximately 4.54 billion years old.</li>
+      <li>There are over 7.9 billion people living on Earth.</li>
+      <li>The highest point on Earth is Mount Everest.</li>
+      <li>The world's largest ocean is the Pacific Ocean.</li>
+    </ul>
+    <h2>Image of the World</h2>
+    <img src="world.jpg" alt="World" width="500">
+    <h2>Interact with the World</h2>
+    <button id="greet-button">Greet the World</button>
+    <script>
+      // JavaScript code
+      const greetButton = document.getElementById('greet-button');
+      greetButton.addEventListener('click', function() {
+        alert('Hello, World!');
+      });
+    </script>
+  </div>
+</body>
+</html>
